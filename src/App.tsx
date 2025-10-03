@@ -7,6 +7,7 @@
 // import Card from "./components/Card.tsx";
 import Layout from "./components/Layout.tsx";
 import WindowSize from "./components/WindowSize.tsx";
+import FocusInput from "./components/FocusInput.tsx";
 // import ViteIntro from "./components/ViteIntro/ViteIntro.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
@@ -70,8 +71,9 @@ function App() {
         {/*<NameChangerWithEffect />*/}
 
         {/*<Timer/>*/}
+        {/*<WindowSize/>*/}
 
-        <WindowSize/>
+        <FocusInput/>
 
       </Layout>
     </>
