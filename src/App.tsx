@@ -6,6 +6,7 @@
 // import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 // import Card from "./components/Card.tsx";
 import Layout from "./components/Layout.tsx";
+import WindowSize from "./components/WindowSize.tsx";
 // import ViteIntro from "./components/ViteIntro/ViteIntro.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
@@ -16,7 +17,7 @@ import Layout from "./components/Layout.tsx";
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
 // import NameChangerWithEffect from "./components/NameChangerWithEffect.tsx";
 // import {useEffect} from "react";
-import Timer from "./components/Timer.tsx";
+// import Timer from "./components/Timer.tsx";
 
 function App() {
 
@@ -68,7 +69,9 @@ function App() {
         {/*<CounterWithCustomHook/>*/}
         {/*<NameChangerWithEffect />*/}
 
-        <Timer/>
+        {/*<Timer/>*/}
+
+        <WindowSize/>
 
       </Layout>
     </>
