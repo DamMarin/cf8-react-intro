@@ -6,9 +6,11 @@
 // import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 // import Card from "./components/Card.tsx";
 import Layout from "./components/Layout.tsx";
-import WindowSize from "./components/WindowSize.tsx";
-import FocusInput from "./components/FocusInput.tsx";
-import PreviewsValue from "./components/PreviousValue.tsx";
+// import WindowSize from "./components/WindowSize.tsx";
+// import FocusInput from "./components/FocusInput.tsx";
+// import PreviewsValue from "./components/PreviousValue.tsx";
+import CounterWithRef from "./components/CounterWithRef.tsx";
+// import FocusInput from "./components/FocusInput.tsx";
 // import ViteIntro from "./components/ViteIntro/ViteIntro.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
@@ -74,8 +76,9 @@ function App() {
         {/*<Timer/>*/}
         {/*<WindowSize/>*/}
         {/*<FocusInput/>*/}
+        {/*<PreviewsValue/>*/}
 
-        <PreviewsValue/>
+        <CounterWithRef />
 
       </Layout>
     </>
