@@ -8,6 +8,7 @@
 import Layout from "./components/Layout.tsx";
 import WindowSize from "./components/WindowSize.tsx";
 import FocusInput from "./components/FocusInput.tsx";
+import PreviewsValue from "./components/PreviousValue.tsx";
 // import ViteIntro from "./components/ViteIntro/ViteIntro.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
@@ -72,8 +73,9 @@ function App() {
 
         {/*<Timer/>*/}
         {/*<WindowSize/>*/}
+        {/*<FocusInput/>*/}
 
-        <FocusInput/>
+        <PreviewsValue/>
 
       </Layout>
     </>
