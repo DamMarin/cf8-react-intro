@@ -13,7 +13,8 @@ import Layout from "./components/Layout.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
 // import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
-import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+// import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+import NameChangerWithEffect from "./components/NameChangerWithEffect.tsx";
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
         {/*<CounterWithMoreStates/>*/}
         {/*<CounterAdvanced/>*/}
 
-        <CounterWithCustomHook/>
+        {/*<CounterWithCustomHook/>*/}
+        <NameChangerWithEffect />
 
       </Layout>
     </>
