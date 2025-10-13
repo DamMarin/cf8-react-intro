@@ -124,6 +124,7 @@ function App() {
 
           {/*<Route path="files/*" element={<FilePage />} />*/}
 
+          <Route path="*" element={<PageNotFound />}/>
         </Routes>
       </BrowserRouter>
 
