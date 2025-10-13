@@ -30,6 +30,8 @@ import Timer from "./components/Timer.tsx";
 // import Layout from "./components/Layout.tsx";
 import RouterLayout from "./components/RouterLayout.tsx";
 import UserPage from "./pages/UserPage.tsx";
+import ControlledInput from "./components/ControlledInput.tsx";
+import UncontrolledInput from "./components/UncontrolledInput.tsx";
 
 function App() {
 
@@ -107,6 +109,8 @@ function App() {
             <Route path="examples?">
               <Route path="name-changer" element={<NameChanger/>}/>
               <Route path="timer" element={<Timer/>}/>
+              <Route path="controlled-input" element={<ControlledInput/>}/>
+              <Route path="uncontrolled-input" element={<UncontrolledInput/>}/>
               {/*<Route path="*" element={<ExamplePage/>}/>*/}
             </Route>
 
@@ -124,7 +128,7 @@ function App() {
 
           {/*<Route path="files/*" element={<FilePage />} />*/}
 
-          <Route path="*" element={<PageNotFound />}/>
+          {/*<Route path="*" element={<PageNotFound />}/>*/}
         </Routes>
       </BrowserRouter>
 
