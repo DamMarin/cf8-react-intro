@@ -29,6 +29,7 @@ import HomePage from "./pages/HomePage.tsx";
 import Timer from "./components/Timer.tsx";
 // import Layout from "./components/Layout.tsx";
 import RouterLayout from "./components/RouterLayout.tsx";
+import UserPage from "./pages/UserPage.tsx";
 
 function App() {
 
@@ -114,12 +115,12 @@ function App() {
           {/*<Route path="users/:userId" element={<UserPage />} />*/}
           {/*<Route path="users/:userId/accounts" element={<UserAccountPage />} />*/}
 
-          {/*<Route path="users">*/}
-          {/*  <Route path=":userId">*/}
-          {/*    <Route index element={<UserPage/>}/>*/}
-          {/*    <Route path="accounts" element={<UserAccountPage/>}/>*/}
-          {/*  </Route>*/}
-          {/*</Route>*/}
+          <Route path="users">
+            <Route path=":userId">
+              <Route index element={<UserPage/>}/>
+              {/*<Route path="accounts" element={<UserAccountPage/>}/>*/}
+            </Route>
+          </Route>
 
           {/*<Route path="files/*" element={<FilePage />} />*/}
 
