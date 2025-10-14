@@ -9,7 +9,8 @@ const HomePage = () => {
     {path: "/examples/controlled-input", label: "Controlled Input Example"},
     {path: "/examples/uncontrolled-input", label: "Uncontrolled Input Example"},
     {path: "/examples/multifield-form", label: "Multifield Form Example"},
-    {path: "/examples/multifield-form-validation", label: "Multifield Form With Validation Example"}
+    {path: "/examples/multifield-form-validation", label: "Multifield Form With Validation Example"},
+    {path: "/examples/multifield-form-zod", label: "Multifield Form With Zod Example"}
   ];
 
   useEffect(()=> {
